@@ -14,5 +14,9 @@ yeni_user = (
 )
 
 start = (
-"👋 Salam {message.from_user.mention} Xoş Gördük\n✅ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\nℹ Bot Barədə tam Məlumat Almaq Üçün /Xaoschat  Yazın",
+"👋 Salam Xoş Gördük\n✅ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\nℹ Bot Barədə tam Məlumat Almaq Üçün /Xaoschat  Yazın",
+)
+
+info = (
+"☑ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\n\nℹ Botumuz Haqda Qısa Məlumat\n⚡ 𝕏𝔸𝕆𝕊 ℂℍ𝔸𝕋 𝔹𝕆𝕋  Sıradan Söhbət Və Avto Cavablayıcı Botudur. Bu Botun Əsas Özəlliyi Qruplarda Mesaj Sayın Çoxaltmaq , Vaxdınızı Əyləncəli Keçirmək Dir. 𝕏𝔸𝕆𝕊 ℂℍ𝔸𝕋 𝔹𝕆𝕋 u qruplarınlza Alaraq Vaxdınızı Əyləncəli Və Səmərəli Keçirə Bilərsiz.\n\n👤 **👨‍💻 OWNER 🇦🇿** [XAOS KÖLGƏ](https://t.me/sesizKOLGE) ",
 )
