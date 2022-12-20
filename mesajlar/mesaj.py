@@ -101,7 +101,7 @@ emoji2 = (
 "Na Var Aa ? Nəyə Gülürsən? 🙄 ",  
 "Az Gül Yekə Qizsan 🥱", 
 "Hırıldama 😑",
-"Xinça Baş Az gül 😝", 
+"Xonça Baş Az gül 😝", 
 "Quzu Kəsərəm O Gülüşünə 😄",
 "Gülüşə Baaa Elə Bil Dağ Mışıdı 😅", 
 ) 
