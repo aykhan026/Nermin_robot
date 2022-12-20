@@ -53,9 +53,9 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(geldim)}")
 
-@Nermin.on(events.NewMessage(pattern='(?i)nermin+'))
-@Nermin.on(events.NewMessage(pattern='(?i)nərmin+'))
-@Nermin.on(events.NewMessage(pattern='(?i)balam+'))
+@Nermin.on(events.NewMessage(pattern='(?i)sesizKOLGE+'))
+@Nermin.on(events.NewMessage(pattern='(?i)KOLGE+'))
+@Nermin.on(events.NewMessage(pattern='(?i)KOLGƏ+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(sesizKOLGE)}")
 
