@@ -13,7 +13,7 @@ salam = (
 "Salam Ay Xanım",
 "Salam Balam",
 "Salamdaa",
-"Uşş balama salam",
+"Uşş balama salamm",
 "Salam Cənab 🫶",
 "Salam Nəəfəəəss",
 )
