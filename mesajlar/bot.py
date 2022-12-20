@@ -14,9 +14,5 @@ yeni_user = (
 )
 
 start = (
-"Gəldi başımın bəlası 😂❤️",
-"Nədi ba dinc duranmadın ? 😂",
-"Gözdüyürsən deyimki xoş gəldin ? 😂",
-"Ay bala mucuxlamasan olmur ? 😂",
-"Yaman bekarsan ha öz aramızdı 😂",
+"👋Salam Xoş Gördük\n✅ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\nℹ Bot Barədə tam Məlumat Almaq Üçün /info  Yazın",
 )
