@@ -14,5 +14,5 @@ yeni_user = (
 )
 
 start = (
-"👋Salam Xoş Gördük\n✅ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\nℹ Bot Barədə tam Məlumat Almaq Üçün /info  Yazın",
+"👋Salam Xoş Gördük\n✅ Mən XAOS Federasiyasının Rəsmi Söhbət Botuyam\nℹ Bot Barədə tam Məlumat Almaq Üçün /Xaoschat  Yazın",
 )
