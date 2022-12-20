@@ -60,7 +60,7 @@ geldim = (
 "Qırmızı Xalçada Sərəkmi?",  
 )
 
-@sesizKOLGE = (
+sesizKOLGE = (
 "Haycannn",
 "Haycannn, Quzu kəsime sənə",
 "Bəliii🫶",
