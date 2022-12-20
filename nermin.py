@@ -57,7 +57,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 @Nermin.on(events.NewMessage(pattern='(?i)nərmin+'))
 @Nermin.on(events.NewMessage(pattern='(?i)balam+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
-    await event.reply(f"{random.choice(nermin)}")
+    await event.reply(f"{random.choice(@sesizKOLGE)}")
 
 @Nermin.on(events.NewMessage(pattern='(?i)ban+'))
 @Nermin.on(events.NewMessage(pattern='(?i)kick+'))
@@ -67,6 +67,6 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 
 
 nermin_run = nermin_start.decode("utf8")
-print(">> Nermin qoz kimi işləyir ♿ @RoBotlarimTg @aykhan_s <<")
+print(">> Chat bot işləyir ♿ <<")
 print(f"{nermin_run}")
 Nermin.run_until_disconnected()
