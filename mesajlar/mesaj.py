@@ -61,10 +61,27 @@ geldim = (
 )
 
 sesizKOLGE = (
-"Haycannn",
-"Haycannn, Quzu kəsime sənə",
-"Bəliii🫶",
+"Haycannn Aşkım ❤",
+"Haycannn, Quzu kəsime sənə 🙊",
+"Bəliii 🫶",
 "Nə gözəl deyirsəne, birdə de",
+"O Mənim Ürəyimdi ❤",
+"Na Var Aaa, Nə İsdiyirsən? 😑",
+"Azzzaarrr 😬😬",
+"Buyur 😝",
+"🙄",  
+"🥱",  
+"❤", 
+"Na Var Aaa, Nəyə Tağ Edirsənn?? 🙄",  
+"Aəəəə Dincəəldəəəə 😒",  
+"😒",  
+"Qrupun Gözüüü 😝",  
+"Adəə İmkan Ver Yataqdaa 🥱🥱",  
+"Əlini Farahat Qoyda Alaa 😒",  
+"Dur Cıx Çölə",  
+"what? 🙄", 
+"Davaaay Nömrənii Att Kişi Balaa 👨‍💻", 
+"Sən Öl Səni Yolacam aaaa",
 )
 
 ban = (
