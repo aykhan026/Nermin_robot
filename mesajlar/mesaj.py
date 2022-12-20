@@ -106,7 +106,7 @@ emoji2 = (
 "Gülüşə Baaa Elə Bil Dağ Mışıdı 😅", 
 ) 
 
-Xaos = (
+fed = (
 "XAOS ❤ Di ",  
 "Yaşasın XAOS ❤",  
 "Salam Olsun XAOS Ailəsinə 👋", 
