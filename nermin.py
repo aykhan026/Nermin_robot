@@ -10,7 +10,7 @@
 
 from komekci.aykhan import Nermin
 import base64
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, nermin, ban
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban
 from mesajlar.bot import yeni_user, start
 from telethon import events, Button
 import random
