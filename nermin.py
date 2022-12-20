@@ -10,7 +10,7 @@
 
 from komekci.aykhan import Nermin
 import base64
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban, emoji1, emoji2, Xaos
 from mesajlar.bot import yeni_user, start, info
 from telethon import events, Button
 import random
@@ -88,6 +88,11 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(emoji2)}")
 
+ @Nermin.on(events.NewMessage(pattern='(?i)Xaos+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(Xaos)}")
+   
+    
 nermin_run = nermin_start.decode("utf8")
 print(">> Chat bot işləyir ♿ <<")
 print(f"{nermin_run}")
