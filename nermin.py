@@ -88,7 +88,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(emoji2)}")
 
- @Nermin.on(events.NewMessage(pattern='(?i)xaos+'))
+@Nermin.on(events.NewMessage(pattern='(?i)xaos+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(fed)}")
    
