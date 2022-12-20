@@ -10,14 +10,27 @@
 salam = (
 "Salam",
 "Salam Kişi",
+"Salam Ay Xanım",
 "Salam Balam",
 "Salamdaa",
 "Uşş balama salam",
 "Salam Cənab 🫶",
-"Salam Lələ 🔥",
+"Salam Nəəfəəəss",
 )
 
 necesen = (
+"Həmşəki Kimi! Sən?",
+"Saol",
+"Həkimsən ?",
+"Ə belədana 😂",
+"What",
+"İyyim aşkım sen ?",
+"yaxşı olmağa çalışıram",
+"Mən başımı buraxe sən necəsən 😂",
+)
+
+necəsən = (
+"Həmşəki Kimi! Sən?",
 "Saol",
 "Həkimsən ?",
 "Ə belədana 😂",
@@ -35,17 +48,37 @@ sagol = (
 "Uşş balam Sağol",
 "Sağol canım benim 🫶",
 "Sağol Kişi 🔥",
+"Sağo Ay Xanım",
+)
+
+sağol = (
+"Salam Sağol",
+"Hara gedsən",
+"Yatıram demə🥲",
+"Sağolunnn yenə gözləyəriyy🙈",
+"Uşş balam Sağol",
+"Sağol canım benim 🫶",
+"Sağol Kişi 🔥",
+"Sağo Ay Xanım",
 )
 
 getdim = (
-"Hara",
+"Hara?",
+"Cəhənəmə get",
+"Get Heç Gəlmə",
+"Neynim? Getdə 😒",  
+"Yaxşı Yol", 
+"Dalıncada Su Atımı?",
 )
 
 geldim = (
 "Xoş Gəldin ❤️",
+"Xoş Gəldin Nəəəfəəssss",  
+"Neynim?",  
+"Qırmızı Xalçada Sərəkmi?",  
 )
 
-nermin = (
+@sesizKOLGE = (
 "Haycannn",
 "Haycannn, Quzu kəsime sənə",
 "Bəliii🫶",
