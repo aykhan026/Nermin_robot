@@ -30,8 +30,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 @Nermin.on(events.NewMessage(pattern='(?i)/xaosinfo+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(info)}")
-  
-
+ 
 @Nermin.on(events.NewMessage(pattern='(?i)salam+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(salam)}")
@@ -78,7 +77,16 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 @Nermin.on(events.NewMessage(pattern='(?i)mute+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(ban)}")
+    
+@Nermin.on(events.NewMessage(pattern='(?i)🙄+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(emoji1)}")
 
+@Nermin.on(events.NewMessage(pattern='(?i)😂+'))
+@Nermin.on(events.NewMessage(pattern='(?i)🤣+'))
+@Nermin.on(events.NewMessage(pattern='(?i)😅+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(emoji2)}")
 
 nermin_run = nermin_start.decode("utf8")
 print(">> Chat bot işləyir ♿ <<")
