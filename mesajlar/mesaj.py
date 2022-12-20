@@ -91,4 +91,26 @@ ban = (
 "Havada ban kokusu var",
 )
 
+emoji1 = (
+"Na Var A Yuxarda? Nəyə Baxırsan? 🙄",
+"Ba Ba Gözlərin Gənə Qalxızdl Boş Kəlləsinə 😒",
+"Gözlərin Çixmasın Yazıqsan , Nəyə Baxırsan? 😶",
+)
 
+emoji2 = (
+"Na Var Aa ? Nəyə Gülürsən? 🙄 ",  
+"Az Gül Yekə Qizsan 🥱", 
+"Hırıldama 😑",
+"Xinça Baş Az gül 😝", 
+"Quzu Kəsərəm O Gülüşünə 😄",
+"Gülüşə Baaa Elə Bil Dağ Mışıdı 😅", 
+) 
+
+Xaos = (
+"XAOS ❤ Di ",  
+"Yaşasın XAOS ❤",  
+"Salam Olsun XAOS Ailəsinə 👋", 
+"XAOS Ailəsindən Hamıya Salam ❤",  
+"Buyur Nə Lazımdı? 🤔", 
+)
+  
