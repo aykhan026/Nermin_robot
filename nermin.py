@@ -130,7 +130,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(can)}")
     
     
- @Nermin.on(events.NewMessage(pattern='(?i)balam+'))
+@Nermin.on(events.NewMessage(pattern='(?i)balam+'))
 @Nermin.on(events.NewMessage(pattern='(?i)quzum+'))
 @Nermin.on(events.NewMessage(pattern='(?i)❤+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
