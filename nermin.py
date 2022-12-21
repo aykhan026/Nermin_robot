@@ -10,7 +10,7 @@
 
 from komekci.aykhan import Nermin
 import base64
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban, emoji1, emoji2, fed
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban, emoji1, emoji2, fed, niye, ne, hay, mal, can, balam
 from mesajlar.bot import yeni_user, start, info
 from telethon import events, Button
 import random
@@ -69,6 +69,9 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 @Nermin.on(events.NewMessage(pattern='(?i)@Cavkaa+'))
 @Nermin.on(events.NewMessage(pattern='(?i)KOLGE+'))
 @Nermin.on(events.NewMessage(pattern='(?i)KOLGƏ+'))
+@Nermin.on(events.NewMessage(pattern='(?i)kabus+'))
+@Nermin.on(events.NewMessage(pattern='(?i)niko+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nara+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(sesizKOLGE)}")
 
@@ -91,7 +94,50 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 @Nermin.on(events.NewMessage(pattern='(?i)xaos+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(fed)}")
+ 
+@Nermin.on(events.NewMessage(pattern='(?i)niye+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nıye+'))
+@Nermin.on(events.NewMessage(pattern='(?i)niyə+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nıyə+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(niye)}")
+
+    
+@Nermin.on(events.NewMessage(pattern='(?i)ne+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nə+'))
+@Nermin.on(events.NewMessage(pattern='(?i)what+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(ne)}")
    
+@Nermin.on(events.NewMessage(pattern='(?i)hay+'))
+@Nermin.on(events.NewMessage(pattern='(?i)hiy+'))
+@Nermin.on(events.NewMessage(pattern='(?i)hııy+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(hay)}")
+    
+@Nermin.on(events.NewMessage(pattern='(?i)mal+'))
+@Nermin.on(events.NewMessage(pattern='(?i)maal+'))
+@Nermin.on(events.NewMessage(pattern='(?i)qoyun+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(mal)}")
+    
+    
+@Nermin.on(events.NewMessage(pattern='(?i)can+'))
+@Nermin.on(events.NewMessage(pattern='(?i)haycan+'))
+@Nermin.on(events.NewMessage(pattern='(?i)uşş+'))
+@Nermin.on(events.NewMessage(pattern='(?i)uss+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(can)}")
+    
+    
+ @Nermin.on(events.NewMessage(pattern='(?i)balam+'))
+@Nermin.on(events.NewMessage(pattern='(?i)quzum+'))
+@Nermin.on(events.NewMessage(pattern='(?i)❤+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(balam)}")
+   
+    
+
     
 nermin_run = nermin_start.decode("utf8")
 print(">> Chat bot işləyir ♿ <<")
