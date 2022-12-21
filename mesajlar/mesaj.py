@@ -114,3 +114,97 @@ fed = (
 "Buyur Nə Lazımdı? 🤔", 
 )
   
+niye = (
+"Maraqlı Olsun deyə 🥱",
+"Elə Elə 🪓",
+"Azzar Niyəə 😜",
+"Niyəsidə Var Əəə Xonça Baş 😂",
+"Uşşş 😍😍",
+"De Sən Ölll 🙄", 
+"Davay Fly ✈",
+"Saçlarını Yolanda Biləsən 🥹",
+)
+  
+  
+ne = (
+"Nənəə 😂",
+"Azzarr Nəə 🙄",
+"Deyirəm Salam 🤦",
+"Elə Eləə 😐",
+"Qinamiram Eyy , Qandığın Qırafa Odu 😂",
+"Deyirəmm Ki Lavaşş Var? 🤦",
+"Haycann 🥲",
+"Ağzına Pişmiş Gənə 🤣",
+"Elə ondan 🪓",
+"Deyirəm Evlisən? 😊",
+)  
+  
+  
+hay = (
+"Nəəəəə ? 🙄",
+"Azzaarr Hayyy 🤦",
+"Qaraazaaarr 😂",
+"Deyrəm Nətərsən? 🙄",
+"98 İn Çeşqası Var Bez Krasqa? 🤦",
+"Bəlkə 50 Cə Qəpik Pulun Ola? 😂",
+)  
+  
+  
+mal = (
+"What? 🙄",
+"Sənsən 😝",
+"Məndə Chat Bot 🥲",
+"Şad Oldum 😊",
+"Səndən Öyrənmişəmdə 🥹",
+"Haycann Aşkımm 😍",
+"Hə Balamm ☺️",
+"Mal mənə Deyenin Qaynenesidi Bildin Əəə??? ",
+)  
+  
+  
+can = (
+"Azzzaarr 🥹",
+"Canın Baaal 😍",
+"Haycan Aşkım 🥺",
+"Nə Gözəl Deyirsən 🥲 Birdə Dedə 🥹",
+"Haycan Balam 😍",
+"Nə Var Aaa?? 🙄",
+"Tay Az Qizdara Pqd Xod Elə Əə.🪓",
+"Canın Cənnət Necəsən? 🙄",
+"Dur Çıx Çölə Gözüm Səni Görməsin 😁",
+"What ? 🙄",
+"Dediyini Başa Düşmədim Nə Deyrsən əəə?? 😡",
+)  
+  
+  
+balam = (
+"Canın Bal Əzizim 😊",
+"Azzzaar 🤦",
+"Yavaş əəəə 😳",
+"What? 😳",
+"Canın Bal ☺️",
+"Yolacam a səni bu dəqiqə 🙄",
+"Necəsən ürəyim? 🥱",
+"Aaa 🥹 bidə dedə 🥹",
+"Döyülməyin gəlub aa sənin deyən 🥺",
+)  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
