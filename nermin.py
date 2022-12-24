@@ -10,7 +10,7 @@
 
 from komekci.aykhan import Nermin
 import base64
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban, emoji1, emoji2, fed, niye, ne, hay, mal, can, balam
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, sesizKOLGE, ban, emoji1, emoji2, fed, niye, ne, hay, mal, can, balam, xos, hara, gel, gordum
 from mesajlar.bot import yeni_user, start, info
 from telethon import events, Button
 import random
@@ -139,9 +139,33 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(balam)}")
    
+@Nermin.on(events.NewMessage(pattern='(?i)xoş+'))
+@Nermin.on(events.NewMessage(pattern='(?i)xos+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gününə+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gününe+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gunune+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(xos)}")
+     
+@Nermin.on(events.NewMessage(pattern='(?i)hara+'))
+@Nermin.on(events.NewMessage(pattern='(?i)havaq+'))
+@Nermin.on(events.NewMessage(pattern='(?i)hansı+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(hara)}")
     
+@Nermin.on(events.NewMessage(pattern='(?i)gel+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gəl+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gelde+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(gel)}")
+    
+@Nermin.on(events.NewMessage(pattern='(?i)gordum+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gördüm+'))
+@Nermin.on(events.NewMessage(pattern='(?i)gördün+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(gordum)}")
+         
 
-    
 nermin_run = nermin_start.decode("utf8")
 print(">> Chat bot işləyir ♿ <<")
 print(f"{nermin_run}")
