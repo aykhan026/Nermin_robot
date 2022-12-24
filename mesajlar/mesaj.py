@@ -190,7 +190,46 @@ balam = (
 )  
   
   
-  
+xos = (
+"Heç xoş gəlmədin 😑",
+"Xoş gəlmisən amma ged 👿", "Mənləsən əə xötəyyy?",
+"Xoş kimdi qadan alım 🥱",
+"Bizim oralarda xoş gələni döyurlər🥴",
+"Xoş gününə aşkım ❤️",
+"Haycan balam 🥲",
+"Rədd oll 🙄😒",
+)
+
+hara = (
+"Yapış divara 🤤",
+"Hara desən ora 😬",
+"Hara lazımdı ?",
+"Yanıma 🫣",
+"Sene ne hara?",
+"Cəhənnəməə",
+"Zibilliyəəə",
+"Hara Lazımdı ora ay maall",
+)
+
+gel = (
+"Gəlimdə balam 🙊",
+"Gəlsəm pis olar 😋",
+"Gəlirəm ha 😈",
+"Hara gəlim balam? 🤡",
+"Strelka at qaqaş 💪",
+)
+
+
+
+gordum = (
+"Elə bildim korsan 😒",
+"Görüb nağarassan xötey? 😡",
+"Haramı 🙈",
+"Görmədim özüm gostərdim 😉",
+"He məndə gördüm 😄",
+"Qələt Eədin 😁",
+"Neynim? 🤦",
+)
   
   
   
